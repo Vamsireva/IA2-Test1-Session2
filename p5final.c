@@ -1,5 +1,4 @@
-
-#include <stdio.h>
+ #include <stdio.h>
 int input()
 {
   int a;
@@ -39,5 +38,13 @@ int main()
   b = input();
   gcd = find_gcd(a,b);
   output(a,b,gcd);
+  return 0;
+}
+#include <stdio.h>
+int input();
+{
+  int a;
+  printf("Enter the number\n");
+  scanf("%d*%d",&a);
   return 0;
 }
